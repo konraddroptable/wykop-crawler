@@ -7,7 +7,7 @@ import datetime
 class WykopSpider(scrapy.Spider):
     name = "Wykop"
     allowed_domains = ["wykop.pl"]
-    start_urls = ["http://www.wykop.pl/strona/" + str(i) + "/" for i in range(1, 2)]
+    start_urls = ["http://www.wykop.pl/strona/" + str(i) + "/" for i in range(1, 2794)]
     xpath_url = "//div[@class='grid-main grid-main m-reset-margin']//ul[@id='itemsStream']/li[@class='link iC ']//div[@class='media-content m-reset-float']/a/@href"
     
     def parse(self, response):

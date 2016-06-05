@@ -16,8 +16,8 @@ NEWSPIDER_MODULE = 'Wykop.spiders'
 
 DEPTH_LIMIT = 1
 
-LOG_STDOUT = True
-LOG_FILE = 'wykop_output.txt'
+#LOG_STDOUT = True
+#LOG_FILE = 'wykop_output.txt'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Wykop (+http://www.yourdomain.com)'
