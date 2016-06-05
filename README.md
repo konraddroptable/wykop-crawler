@@ -2,8 +2,7 @@
 Crawler for main page at wykop.pl
 
 #Prerequisites:
-python 2.7 interpreter
-scrapy
+python 2.7 interpreter, scrapy
 
 #How to install:
 clone this repository
